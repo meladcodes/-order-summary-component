@@ -1,0 +1,134 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer {
+    max-height: 1400px;
+    max-width: 350px;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.topSection {
+    max-width: 100%;
+    max-height: 40%;
+}
+
+.topSection img {
+    max-width: 100%;
+    max-height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.bottomSection {
+    max-height: 60%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.textSection {
+    text-align: center;
+}
+
+.textSection h1 {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.textSection p {
+    color: hsl(224, 23%, 55%);
+}
+
+.annualSection {
+    display: flex;
+    margin: 25px 0px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingContainer {
+    margin-right: 30px;
+    margin-left: 8px;
+
+}
+.pricingContainer h2 {
+    font-size: 15px;
+}
+.annualSection button {
+    border: none;
+    background-color: transparent;
+}
+
+.annualSection button:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);;
+}
+
+.pricingContainer h3 {
+    font-size: 13px;
+    color: hsl(224, 23%, 55%);
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.btnContainer .btn1 {
+    width: 300px;
+    min-height: 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    border-style: none;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(3, 17, 85, 0.19), 0 6px 6px rgba(3, 4, 80, 0.23);
+}
+
+.btnContainer .btn1:hover {
+    background-color: hsl(223, 47%, 23%);
+    cursor: pointer;
+    opacity: 0.99;
+}
+
+
+.btnContainer .btn2 {
+    width: 300px;
+    min-height: 40px;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    background-color: transparent;
+}
+
+.btnContainer .btn2:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
